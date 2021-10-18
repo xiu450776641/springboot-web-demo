@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo?useSSL=false&serverTimezone=UTC&charaterEncoding=utf8&allowMultiQueries=true
+    username: root
+    password: root
+  thymeleaf:
+    prefix: classpath:/templates/ #默认 /templates/
+    suffix: .html #默认 .html
+    encoding: UTF-8
+    cache: false
+    mode: LEGACYHTML5
+server:
+  port:
